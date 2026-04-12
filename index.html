@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Walisson Jose | Full-Stack & AI Developer</title>
+  <meta name="description" content="Walisson Jose — Full-Stack & AI Developer from Brazil. Building scalable web apps, REST APIs, automation systems, and AI-driven solutions with Python and JavaScript.">
+  <meta name="keywords" content="Walisson Jose, Full-Stack Developer, AI Developer, Python, JavaScript, FastAPI, REST API, Automation, Software Engineer, Brazil">
+  <meta name="author" content="Walisson Jose">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Walisson Jose | Full-Stack & AI Developer">
+  <meta property="og:description" content="Software Engineer from Brazil building scalable applications, AI automation, and REST APIs with Python & JavaScript.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/my-avatar.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Walisson Jose | Full-Stack & AI Developer">
+  <meta name="twitter:description" content="Software Engineer from Brazil building scalable applications, AI automation, and REST APIs.">
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Walisson Jose" width="80" loading="lazy">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Walisson Jose">Walisson Jose</h1>
+          <p class="title">Full-Stack & AI Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:walissoncair@gmail.com" class="contact-link">walissoncair@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+5583987250151" class="contact-link">+55 (83) 98725-0151</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2001-02-26">February 26, 2001</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>João Pessoa, PB, Brazil</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/walicard56" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/walisson-jose" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/walisson.joseee" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #MAIN CONTENT
+    -->
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Software Engineering student and Full-Stack & AI Developer from João Pessoa, Brazil.
+            I design and build scalable web applications, REST APIs, automation pipelines, and
+            AI-powered solutions — always with a focus on clean architecture and real-world impact.
+          </p>
+
+          <p>
+            My core stack is Python and JavaScript. I've shipped production-ready bots, data-driven
+            back-ends with FastAPI and SQLite/PostgreSQL, and interactive front-ends from scratch.
+            I'm passionate about automation: if a workflow can be scripted, I'll script it elegantly.
+          </p>
+
+          <p>
+            I'm currently open to Full-Stack or Back-End Engineer roles where I can collaborate on
+            meaningful products, sharpen my craft, and keep growing at the intersection of software
+            engineering and artificial intelligence.
+          </p>
+        </section>
+
+        <!--
+          - services
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Full-Stack Development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Development</h4>
+                <p class="service-item-text">
+                  Building end-to-end web applications with Python back-ends (FastAPI, Flask)
+                  and modern JavaScript front-ends. From database schema to responsive UI.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="AI & Automation icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Automation</h4>
+                <p class="service-item-text">
+                  Developing intelligent bots, workflow automation scripts, and AI-integrated
+                  pipelines using OpenAI APIs, web scraping, and task scheduling.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="API Design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">REST API Design</h4>
+                <p class="service-item-text">
+                  Designing and documenting clean, versioned REST APIs with authentication,
+                  rate limiting, and OpenAPI/Swagger specs. Built to scale.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Data & Databases icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data & Databases</h4>
+                <p class="service-item-text">
+                  Modeling relational and non-relational databases, writing optimized queries,
+                  and building data pipelines for reporting and analytics.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- Modal container (kept for structure) -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title></h4>
+              <time data-modal-date></time>
+              <div data-modal-text></div>
+            </div>
+          </section>
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering — Anhanguera University</h4>
+              <span>2025 — In Progress</span>
+              <p class="timeline-text">
+                Bachelor's degree in Software Engineering covering software architecture, algorithms,
+                databases, agile methodologies, testing, and project management. Focus on building
+                intelligent, efficient, and scalable systems.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python & AI Development — Self-Taught</h4>
+              <span>2022 — 2024</span>
+              <p class="timeline-text">
+                Intensive self-directed study covering Python fundamentals through advanced topics:
+                REST APIs, web scraping, automation, database design, machine learning basics,
+                and deployment. Reinforced through 30+ personal and open-source projects.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full-Stack & AI Developer — Freelance</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Delivered full-stack applications and automation tools for clients across different
+                industries. Built REST APIs with FastAPI, integrated third-party services, automated
+                repetitive workflows with Python bots, and deployed solutions on cloud platforms.
+                Strong emphasis on clean code, documentation, and maintainability.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Developer — Personal & Open-Source Projects</h4>
+              <span>2022 — 2023</span>
+              <p class="timeline-text">
+                Developed a portfolio of open-source tools: Telegram bots, web scrapers, CLI
+                utilities, and data processing scripts. Adopted Git-based workflows, wrote unit
+                tests, and published reusable packages. All projects publicly available on GitHub.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript / TypeScript</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">FastAPI / Flask / REST APIs</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML & CSS</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Automation & Web Scraping</h5>
+                <data value="88">88%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL / SQLite / PostgreSQL</h5>
+                <data value="78">78%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 78%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git & GitHub</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Docker & Linux</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects" id="github-projects-wrapper">
+
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>AI / Backend</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>AI / Backend</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- GitHub projects injected here -->
+          <ul class="project-list" id="github-projects">
+            <!-- Loading skeleton -->
+            <li class="project-item active skeleton-card">
+              <div class="skeleton-img"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-title"></div>
+                <div class="skeleton-line skeleton-sub"></div>
+              </div>
+            </li>
+            <li class="project-item active skeleton-card">
+              <div class="skeleton-img"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-title"></div>
+                <div class="skeleton-line skeleton-sub"></div>
+              </div>
+            </li>
+            <li class="project-item active skeleton-card">
+              <div class="skeleton-img"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-title"></div>
+                <div class="skeleton-line skeleton-sub"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?q=Jo%C3%A3o+Pessoa+PB+Brazil&output=embed"
+              width="400" height="300" loading="lazy" style="border:0;"
+              allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+              title="João Pessoa, PB, Brazil"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Send me a message</h3>
+
+          <form
+            action="https://formspree.io/f/xdkgaabn"
+            method="POST"
+            class="form"
+            data-form>
+
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="fullname"
+                class="form-input"
+                placeholder="Full name"
+                required
+                data-form-input>
+
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                placeholder="Email address"
+                required
+                data-form-input>
+            </div>
+
+            <textarea
+              name="message"
+              class="form-input"
+              placeholder="Your message"
+              required
+              data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/api_github.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
