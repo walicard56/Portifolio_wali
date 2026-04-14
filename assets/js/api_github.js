@@ -36,6 +36,12 @@ const FALLBACK_IMAGES = [
   './assets/images/project-3.jpg',
 ];
 
+// Custom preview images per repo (raw.githubusercontent.com URLs)
+// Add more repos here whenever you upload a screenshot to a repo
+const REPO_IMAGES = {
+  'Bot-IQ-Option-telegram-SQLITE': 'https://raw.githubusercontent.com/walicard56/Bot-IQ-Option-telegram-SQLITE/main/Screenshot_20260414_161857_Telegram.jpg',
+};
+
 function formatRepoName(name) {
   return name
     .replace(/[-_]/g, ' ')
@@ -46,7 +52,7 @@ function buildProjectCard(repo, index) {
   const language   = repo.language || 'General';
   const category   = LANGUAGE_CATEGORIES[language] || 'Other';
   const color      = LANGUAGE_COLORS[language]      || '#858585';
-  const image      = FALLBACK_IMAGES[index % FALLBACK_IMAGES.length];
+  const image      = REPO_IMAGES[repo.name] ?? FALLBACK_IMAGES[index % FALLBACK_IMAGES.length];
   const stars      = repo.stargazers_count || 0;
   const forks      = repo.forks_count      || 0;
   const description = repo.description
